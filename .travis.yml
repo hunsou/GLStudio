@@ -20,8 +20,8 @@ script:
 deploy:
   # 部署到GitHub Release。
   # 除此之外，Travis CI还支持发布到fir.im、AWS、Google App Engine等
-  #provider: releases
-  provider: debug
+  provider: releases
+  #provider: debug
   # Github oauth token
   api_key: "$GIT_TOKEN"
   # 部署文件路径；对于Android就部署生成的 apk 文件
