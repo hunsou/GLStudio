@@ -13,7 +13,7 @@ android:        # 配置信息
     - extra-android-support
 script:
   # 生成 APK
-  #- ./gradlew assembleRelease
+  - ./gradlew assembleRelease
   - ./gradlew assembleDebug
 
 # 部署
@@ -26,7 +26,7 @@ deploy:
   api_key: "$GIT_TOKEN"
   # 部署文件路径；对于Android就部署生成的 apk 文件
   file:
-    #- app/build/outputs/apk/release/app-release.apk
+    - app/build/outputs/apk/release/app-release.apk
     - app/build/outputs/apk/debug/app-debug.apk
   # 避免 Travis CI在部署之前清空生成的APK文件
   skip_cleanup: true
