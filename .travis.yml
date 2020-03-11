@@ -5,7 +5,7 @@ language: android
 android:        # 配置信息
   components:
     # 你可能需要修改下面两项的版本
-    - build-tools-29.0.2
+    - build-tools-28.0.3
     - android-28
     # Android Support Repository
     - extra-android-m2repository
@@ -13,18 +13,21 @@ android:        # 配置信息
     - extra-android-support
 script:
   # 生成 APK
-  - ./gradlew assembleRelease
+  #- ./gradlew assembleRelease
+  - ./gradlew assembleDebug
 
 # 部署
 deploy:
   # 部署到GitHub Release。
   # 除此之外，Travis CI还支持发布到fir.im、AWS、Google App Engine等
-  provider: releases
+  #provider: releases
+  provider: debug
   # Github oauth token
   api_key: "$GIT_TOKEN"
   # 部署文件路径；对于Android就部署生成的 apk 文件
   file:
-    - app/build/outputs/apk/release/app-release.apk
+    #- app/build/outputs/apk/release/app-release.apk
+    - app/build/outputs/apk/debug/app-debug.apk
   # 避免 Travis CI在部署之前清空生成的APK文件
   skip_cleanup: true
   # 发布时机
