@@ -1,3 +1,5 @@
+# forked from [benhero](https://github.com/benhero/GLStudio.git)
+![404](https://travis-ci.com/hunsou/GLStudio.svg?branch=master)
 # 关于GLStudio
 OpenGL基础入门教程，暂定专注于2D图形绘制。
 
