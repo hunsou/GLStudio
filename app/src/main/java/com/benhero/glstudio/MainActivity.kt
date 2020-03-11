@@ -44,9 +44,9 @@ class MainActivity : Activity(), AdapterView.OnItemClickListener {
         listView.adapter = adapter
         listView.onItemClickListener = this
         // 自动点击
-        val position = MainListItems.getIndex(L11_1_CameraRenderer::class.java)
-        listView.performItemClick(adapter.getView(position, null, listView),
-                position, adapter.getItemId(position))
+//        val position = MainListItems.getIndex(L11_1_CameraRenderer::class.java)
+//        listView.performItemClick(adapter.getView(position, null, listView),
+//                position, adapter.getItemId(position))
 
         TedPermission.with(this@MainActivity)
                 .setPermissionListener(object : PermissionListener {

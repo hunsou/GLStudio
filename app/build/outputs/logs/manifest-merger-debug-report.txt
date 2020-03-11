@@ -1,0 +1,241 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:2:1-40:12
+MERGED from [gun0912.ted:tedpermission:2.2.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\1a0f39a277f33c2fae95ecbebcba8c95\tedpermission-2.2.0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\6a3cb103f7d7f3d6f40ee15b732b884b\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\72576408421749f22a44c8488b60bfd8\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jayfeng:lesscode-core:2.4.2] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\a50c25e5062ba62f3c40c655ef17e6c8\lesscode-core-2.4.2\AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\c1b003031fe9d143b8b80d93696f080d\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\f7edc1f83564a280b2f3882d2a72ac8c\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\fdd7b91e857c10f01ac6152f54fff210\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\051198ddbbe622be053cb64692201778\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\bbc5f92e17b75c835addec2b0ab1ac62\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\bba47169830afff52580e2382e99dba7\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\670265d4553ecfee519ad68358c8109f\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\c77cfbe996b64c025af78aaf88322381\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\0b77371bdc987a0534ace31119b4ddfa\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\849daeaaacabd0181360c8e15b963049\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\7827cbb8ef03cc9e759dece298bb8763\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\fb231e351d2d6baf821dd99f7a7f26fa\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\82ccf67429f6da20b627666862742952\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\8d4e5fa519a13d28db9897ce76d22a54\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\d42c1508df30aae7ab47b95b8d04ba54\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\c26d6749c73124f8a08c2c851e5315a4\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\64029f76705c45f9079a7e3585a81267\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\6e87705255d73955e487dc4250a8cf5d\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\7b243a0d78733f05d9ba24be4e413472\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\e1850a6fce119edf7feb56b8d82210a6\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\6c5f8092df38d81668f1d42bcb00cba2\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\f86121fc9472ce8148ff1b89cb5f683b\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\5141c15b2e8fa8227c068286ae2adf44\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\162082f283259a54af1fadcf92835053\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\ea2dec44de63768f52322f7ec8df4733\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\56b5be92aec33e58120b61ee36f3a2c3\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\70f86561683a4895f3538a4e735374bd\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\092269e527949d259a2b177bca1d6a46\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:2:1-40:12
+	package
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:4:5-35
+		INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#0x00020000
+ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:6:5-8:35
+	android:glEsVersion
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:7:9-41
+	android:required
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:8:9-32
+supports-gl-texture#GL_OES_compressed_ETC1_RGB8_texture
+ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:10:26-76
+supports-gl-texture#GL_OES_compressed_paletted_texture
+ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:11:26-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:13:5-81
+MERGED from [com.jayfeng:lesscode-core:2.4.2] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\a50c25e5062ba62f3c40c655ef17e6c8\lesscode-core-2.4.2\AndroidManifest.xml:13:5-81
+MERGED from [com.jayfeng:lesscode-core:2.4.2] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\a50c25e5062ba62f3c40c655ef17e6c8\lesscode-core-2.4.2\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:14:5-65
+	android:name
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:14:22-62
+application
+ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:16:5-38:19
+MERGED from [gun0912.ted:tedpermission:2.2.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\1a0f39a277f33c2fae95ecbebcba8c95\tedpermission-2.2.0\AndroidManifest.xml:9:5-15:19
+MERGED from [gun0912.ted:tedpermission:2.2.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\1a0f39a277f33c2fae95ecbebcba8c95\tedpermission-2.2.0\AndroidManifest.xml:9:5-15:19
+MERGED from [com.jayfeng:lesscode-core:2.4.2] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\a50c25e5062ba62f3c40c655ef17e6c8\lesscode-core-2.4.2\AndroidManifest.xml:18:5-20
+MERGED from [com.jayfeng:lesscode-core:2.4.2] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\a50c25e5062ba62f3c40c655ef17e6c8\lesscode-core-2.4.2\AndroidManifest.xml:18:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\051198ddbbe622be053cb64692201778\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\051198ddbbe622be053cb64692201778\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\64029f76705c45f9079a7e3585a81267\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\64029f76705c45f9079a7e3585a81267\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\6e87705255d73955e487dc4250a8cf5d\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\6e87705255d73955e487dc4250a8cf5d\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\64029f76705c45f9079a7e3585a81267\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:18:9-41
+	tools:ignore
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:21:9-60
+	android:roundIcon
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:19:9-48
+	android:icon
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:17:9-43
+	android:theme
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:20:9-40
+activity#com.benhero.glstudio.MainActivity
+ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:screenOrientation
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:24:13-49
+	android:name
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:23:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:28:27-74
+activity#com.benhero.glstudio.VideoActivity
+ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:31:9-33:52
+	android:screenOrientation
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:33:13-49
+	android:name
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:32:13-42
+activity#com.benhero.glstudio.CameraActivity
+ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:34:9-37:64
+	android:screenOrientation
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:36:13-49
+	android:theme
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:37:13-61
+	android:name
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:35:13-43
+uses-sdk
+INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+MERGED from [gun0912.ted:tedpermission:2.2.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\1a0f39a277f33c2fae95ecbebcba8c95\tedpermission-2.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedpermission:2.2.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\1a0f39a277f33c2fae95ecbebcba8c95\tedpermission-2.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\6a3cb103f7d7f3d6f40ee15b732b884b\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\6a3cb103f7d7f3d6f40ee15b732b884b\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\72576408421749f22a44c8488b60bfd8\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\72576408421749f22a44c8488b60bfd8\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jayfeng:lesscode-core:2.4.2] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\a50c25e5062ba62f3c40c655ef17e6c8\lesscode-core-2.4.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jayfeng:lesscode-core:2.4.2] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\a50c25e5062ba62f3c40c655ef17e6c8\lesscode-core-2.4.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\c1b003031fe9d143b8b80d93696f080d\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\c1b003031fe9d143b8b80d93696f080d\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\f7edc1f83564a280b2f3882d2a72ac8c\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\f7edc1f83564a280b2f3882d2a72ac8c\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\fdd7b91e857c10f01ac6152f54fff210\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\fdd7b91e857c10f01ac6152f54fff210\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\051198ddbbe622be053cb64692201778\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\051198ddbbe622be053cb64692201778\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\bbc5f92e17b75c835addec2b0ab1ac62\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\bbc5f92e17b75c835addec2b0ab1ac62\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\bba47169830afff52580e2382e99dba7\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\bba47169830afff52580e2382e99dba7\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\670265d4553ecfee519ad68358c8109f\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\670265d4553ecfee519ad68358c8109f\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\c77cfbe996b64c025af78aaf88322381\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\c77cfbe996b64c025af78aaf88322381\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\0b77371bdc987a0534ace31119b4ddfa\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\0b77371bdc987a0534ace31119b4ddfa\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\849daeaaacabd0181360c8e15b963049\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\849daeaaacabd0181360c8e15b963049\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\7827cbb8ef03cc9e759dece298bb8763\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\7827cbb8ef03cc9e759dece298bb8763\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\fb231e351d2d6baf821dd99f7a7f26fa\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\fb231e351d2d6baf821dd99f7a7f26fa\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\82ccf67429f6da20b627666862742952\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\82ccf67429f6da20b627666862742952\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\8d4e5fa519a13d28db9897ce76d22a54\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\8d4e5fa519a13d28db9897ce76d22a54\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\d42c1508df30aae7ab47b95b8d04ba54\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\d42c1508df30aae7ab47b95b8d04ba54\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\c26d6749c73124f8a08c2c851e5315a4\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\c26d6749c73124f8a08c2c851e5315a4\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\64029f76705c45f9079a7e3585a81267\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\64029f76705c45f9079a7e3585a81267\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\6e87705255d73955e487dc4250a8cf5d\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\6e87705255d73955e487dc4250a8cf5d\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\7b243a0d78733f05d9ba24be4e413472\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\7b243a0d78733f05d9ba24be4e413472\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\e1850a6fce119edf7feb56b8d82210a6\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\e1850a6fce119edf7feb56b8d82210a6\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\6c5f8092df38d81668f1d42bcb00cba2\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\6c5f8092df38d81668f1d42bcb00cba2\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\f86121fc9472ce8148ff1b89cb5f683b\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\f86121fc9472ce8148ff1b89cb5f683b\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\5141c15b2e8fa8227c068286ae2adf44\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\5141c15b2e8fa8227c068286ae2adf44\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\162082f283259a54af1fadcf92835053\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\162082f283259a54af1fadcf92835053\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\ea2dec44de63768f52322f7ec8df4733\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\ea2dec44de63768f52322f7ec8df4733\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\56b5be92aec33e58120b61ee36f3a2c3\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\56b5be92aec33e58120b61ee36f3a2c3\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\70f86561683a4895f3538a4e735374bd\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\70f86561683a4895f3538a4e735374bd\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\092269e527949d259a2b177bca1d6a46\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\092269e527949d259a2b177bca1d6a46\runtime-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml
+activity#com.gun0912.tedpermission.TedPermissionActivity
+ADDED from [gun0912.ted:tedpermission:2.2.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\1a0f39a277f33c2fae95ecbebcba8c95\tedpermission-2.2.0\AndroidManifest.xml:10:9-14:67
+	android:screenOrientation
+		ADDED from [gun0912.ted:tedpermission:2.2.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\1a0f39a277f33c2fae95ecbebcba8c95\tedpermission-2.2.0\AndroidManifest.xml:13:13-52
+	android:configChanges
+		ADDED from [gun0912.ted:tedpermission:2.2.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\1a0f39a277f33c2fae95ecbebcba8c95\tedpermission-2.2.0\AndroidManifest.xml:12:13-144
+	android:theme
+		ADDED from [gun0912.ted:tedpermission:2.2.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\1a0f39a277f33c2fae95ecbebcba8c95\tedpermission-2.2.0\AndroidManifest.xml:14:13-64
+	android:name
+		ADDED from [gun0912.ted:tedpermission:2.2.0] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\1a0f39a277f33c2fae95ecbebcba8c95\tedpermission-2.2.0\AndroidManifest.xml:11:13-75
+uses-permission#android.permission.INTERNET
+ADDED from [com.jayfeng:lesscode-core:2.4.2] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\a50c25e5062ba62f3c40c655ef17e6c8\lesscode-core-2.4.2\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from [com.jayfeng:lesscode-core:2.4.2] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\a50c25e5062ba62f3c40c655ef17e6c8\lesscode-core-2.4.2\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.jayfeng:lesscode-core:2.4.2] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\a50c25e5062ba62f3c40c655ef17e6c8\lesscode-core-2.4.2\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.jayfeng:lesscode-core:2.4.2] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\a50c25e5062ba62f3c40c655ef17e6c8\lesscode-core-2.4.2\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.jayfeng:lesscode-core:2.4.2] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\a50c25e5062ba62f3c40c655ef17e6c8\lesscode-core-2.4.2\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from [com.jayfeng:lesscode-core:2.4.2] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\a50c25e5062ba62f3c40c655ef17e6c8\lesscode-core-2.4.2\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.GET_TASKS
+ADDED from [com.jayfeng:lesscode-core:2.4.2] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\a50c25e5062ba62f3c40c655ef17e6c8\lesscode-core-2.4.2\AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from [com.jayfeng:lesscode-core:2.4.2] C:\Users\hunsou\.gradle\caches\transforms-2\files-2.1\a50c25e5062ba62f3c40c655ef17e6c8\lesscode-core-2.4.2\AndroidManifest.xml:16:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\hunsou\GLStudio\app\src\main\AndroidManifest.xml:2:1-40:12 reason: com.jayfeng.lesscode.core requested WRITE_EXTERNAL_STORAGE
