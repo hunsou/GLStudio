@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hunsou\\GLStudio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+            "outputFile": "C:\\Projects\\Github\\GLStudio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\hunsou\\.gradle\\caches\\transforms-2\\files-2.1\\a50c25e5062ba62f3c40c655ef17e6c8\\lesscode-core-2.4.2\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",

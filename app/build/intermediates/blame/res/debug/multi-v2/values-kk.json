@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hunsou\\GLStudio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kk\\values-kk.xml",
+            "outputFile": "C:\\Projects\\Github\\GLStudio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kk\\values-kk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\hunsou\\.gradle\\caches\\transforms-2\\files-2.1\\6a3cb103f7d7f3d6f40ee15b732b884b\\appcompat-v7-28.0.0\\res\\values-kk\\values-kk.xml",

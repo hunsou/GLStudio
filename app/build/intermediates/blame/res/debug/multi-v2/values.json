@@ -1,40 +1,23 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hunsou\\GLStudio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Projects\\Github\\GLStudio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hunsou\\GLStudio\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "C:\\Projects\\Github\\GLStudio\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2",
+                        "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "57",
-                        "endOffsets": "108"
+                        "startOffsets": "16",
+                        "endColumns": "45",
+                        "endOffsets": "57"
                     },
                     "to": {
-                        "startLines": "276",
+                        "startLines": "390",
                         "startColumns": "4",
-                        "startOffsets": "15990",
-                        "endColumns": "57",
-                        "endOffsets": "16043"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\hunsou\\GLStudio\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "153,55,102",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "194,97,148"
-                    },
-                    "to": {
-                        "startLines": "153,154,155",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "7749,7795,7842",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "7790,7837,7888"
+                        "startOffsets": "23389",
+                        "endColumns": "45",
+                        "endOffsets": "23430"
                     }
                 },
                 {
@@ -57,22 +40,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hunsou\\GLStudio\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Projects\\Github\\GLStudio\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
-                        "startLines": "3,12",
-                        "startColumns": "4,4",
-                        "startOffsets": "101,478",
-                        "endLines": "10,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "472,796"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
                     },
                     "to": {
-                        "startLines": "402,410",
-                        "startColumns": "4,4",
-                        "startOffsets": "24227,24603",
-                        "endLines": "409,414",
-                        "endColumns": "12,12",
-                        "endOffsets": "24598,24917"
+                        "startLines": "276",
+                        "startColumns": "4",
+                        "startOffsets": "15990",
+                        "endColumns": "57",
+                        "endOffsets": "16043"
                     }
                 },
                 {
@@ -148,20 +129,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hunsou\\GLStudio\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Projects\\Github\\GLStudio\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "45",
-                        "endOffsets": "57"
+                        "startLines": "3,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "101,478",
+                        "endLines": "10,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,796"
                     },
                     "to": {
-                        "startLines": "390",
-                        "startColumns": "4",
-                        "startOffsets": "23389",
-                        "endColumns": "45",
-                        "endOffsets": "23430"
+                        "startLines": "402,410",
+                        "startColumns": "4,4",
+                        "startOffsets": "24227,24603",
+                        "endLines": "409,414",
+                        "endColumns": "12,12",
+                        "endOffsets": "24598,24917"
                     }
                 },
                 {
@@ -200,6 +183,23 @@
                         "endLines": "2,10,11,12,13,14,20,23,24,25,28,29,32,35,36,37,38,39,42,45,46,47,48,53,56,59,60,61,66,67,68,71,74,75,78,81,84,87,88,91,94,95,100,101,106,109,112,113,114,115,116,117,118,119,120,121,130,2589,2590,2591,2828",
                         "endColumns": "60,11,47,51,60,45,11,60,59,69,11,67,11,11,61,64,67,66,11,11,66,64,64,11,11,11,65,66,11,68,65,11,11,66,11,11,11,11,64,11,11,64,11,66,11,11,11,64,61,61,61,58,59,60,60,58,11,2575,131,3263,107",
                         "endOffsets": "206,497,545,597,658,704,947,1102,1162,1232,1365,1433,1562,1688,1750,1815,1883,1950,2073,2198,2265,2330,2395,2576,2697,2818,2884,2951,3161,3230,3296,3421,3547,3614,3740,3867,3992,4119,4184,4310,4433,4498,4706,4773,4953,5073,5193,5258,5320,5382,5444,5503,5563,5624,5685,5744,6119,164828,164960,168224,182292"
+                    }
+                },
+                {
+                    "source": "C:\\Projects\\Github\\GLStudio\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
+                    },
+                    "to": {
+                        "startLines": "153,154,155",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "7749,7795,7842",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "7790,7837,7888"
                     }
                 },
                 {

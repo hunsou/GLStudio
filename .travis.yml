@@ -15,6 +15,21 @@ script:
   # 生成 APK
   - ./gradlew assembleRelease
   - ./gradlew assembleDebug
+  - ./gradlew testRelease
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_f6c9a5f058a8_key -iv $encrypted_f6c6a5f053a8_iv -in my.keystore.enc -out my.keystore -d
+
+# before_deploy:
+# - cp $TRAVIS_BUILD_DIR/.keystore $HOME
+# # 记住这里已经将当前工作目录切换到 apk 下
+# - cd app/build/outputs/apk/
+# # Signing 签名
+# - jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/my.keystore -storepass $KEYSTORE_PWD -keypass $KEY_PWD app/build/outputs/apk/app-release-unsigned.apk $KEY_ALIAS
+
+# # Verification 验证您的 APK 是否已签署
+# - jarsigner -verify app-release-unsigned.apk
+# - "${ANDROID_HOME}/build-tools/24.0.2/zipalign -v 4 app-release-unsigned.apk app-release.apk"
 
 # 部署
 deploy:

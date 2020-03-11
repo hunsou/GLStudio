@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hunsou\\GLStudio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Projects\\Github\\GLStudio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\hunsou\\.gradle\\caches\\transforms-2\\files-2.1\\f7edc1f83564a280b2f3882d2a72ac8c\\support-media-compat-28.0.0\\res\\values-v24\\values-v24.xml",
