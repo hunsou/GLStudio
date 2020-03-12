@@ -45,7 +45,7 @@ script:
 deploy:
   # 部署到GitHub Release。
   # 除此之外，Travis CI还支持发布到fir.im、AWS、Google App Engine等
-  provider: prereleases
+  provider: nightly
   #provider: debug
   # Github oauth token
   api_key: "$GIT_TOKEN"
