@@ -12,14 +12,12 @@ def keystoreProperties = new Properties()
 // Load your keystore.properties file into the keystoreProperties object.
 keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 
-//def keyStoreFile = file(keystoreProperties['storeFileLocal'])
-
+def keyStoreFile = file(keystoreProperties['storeFileLocal'])
 
 // 判断是位于本地还是CI服务器
-//if (!keyStoreFile.exists()){
-//    keyStoreFile = file(keystoreProperties['storeFileCI'])
-//	inCI = true
-//}
+if (!keyStoreFile.exists()){
+    keyStoreFile = file(keystoreProperties['storeFileCI'])
+}
 
 android {
     compileSdkVersion 28
@@ -41,9 +39,9 @@ android {
 			//v2SigningEnabled false
 			//keyAlias keystoreProperties['keyAlias']
             //keyPassword keystoreProperties['keyPwd']
-            //storeFile keyStoreFile
+            storeFile keyStoreFile
             //storePassword keystoreProperties['storePwd']
-			storeFile file("../my.keystore")
+			//storeFile file("../my.keystore")
             //storePassword project.hasProperty("KEYSTORE_PASS") ? KEYSTORE_PASS : System.getenv("KEYSTORE_PASS")
             //keyAlias project.hasProperty("ALIAS_NAME") ? ALIAS_NAME : System.getenv("ALIAS_NAME")
             //keyPassword project.hasProperty("ALIAS_PASS") ? ALIAS_PASS : System.getenv("ALIAS_PASS")
