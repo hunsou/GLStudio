@@ -10,8 +10,9 @@ def keystorePropertiesFile = rootProject.file("keystore.properties")
 def keystoreProperties = new Properties()
 
 // Load your keystore.properties file into the keystoreProperties object.
-keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
-
+if (keystorePropertiesFile.exists()){
+	keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
 def keyStoreFile = file(keystoreProperties['storeFileLocal'])
 
 // 判断是位于本地还是CI服务器
@@ -45,9 +46,12 @@ android {
             //storePassword project.hasProperty("KEYSTORE_PASS") ? KEYSTORE_PASS : System.getenv("KEYSTORE_PASS")
             //keyAlias project.hasProperty("ALIAS_NAME") ? ALIAS_NAME : System.getenv("ALIAS_NAME")
             //keyPassword project.hasProperty("ALIAS_PASS") ? ALIAS_PASS : System.getenv("ALIAS_PASS")
-			storePassword keystorePropertiesFile.exists() ? keystoreProperties['KEYSTORE_PASS'] : System.getenv("KEYSTORE_PASS")
-            keyAlias keystorePropertiesFile.exists() ? keystoreProperties['ALIAS_NAME'] : System.getenv("ALIAS_NAME")
-            keyPassword keystorePropertiesFile.exists() ? keystoreProperties['ALIAS_PASS'] : System.getenv("ALIAS_PASS")
+			//storePassword keystorePropertiesFile.exists() ? keystoreProperties['KEYSTORE_PASS'] : System.getenv("KEYSTORE_PASS")
+            //keyAlias keystorePropertiesFile.exists() ? keystoreProperties['ALIAS_NAME'] : System.getenv("ALIAS_NAME")
+            //keyPassword keystorePropertiesFile.exists() ? keystoreProperties['ALIAS_PASS'] : System.getenv("ALIAS_PASS")
+			storePassword keystoreProperties.hasProperty("KEYSTORE_PASS") ? keystoreProperties['KEYSTORE_PASS'] : System.getenv("KEYSTORE_PASS")
+            keyAlias keystoreProperties.hasProperty("ALIAS_NAME") ? keystoreProperties['ALIAS_NAME'] : System.getenv("ALIAS_NAME")
+            keyPassword keystoreProperties.hasProperty("ALIAS_PASS") ? keystoreProperties['ALIAS_PASS'] : System.getenv("ALIAS_PASS")
 		}
 	}
 	
