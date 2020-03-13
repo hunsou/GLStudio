@@ -40,7 +40,7 @@ script:
 
 # # Verification 验证您的 APK 是否已签署
 # - jarsigner -verify app-release-unsigned.apk
-# - "${ANDROID_HOME}/build-tools/24.0.2/zipalign -v 4 app-release-unsigned.apk app-release.apk"
+# - "${ANDROID_HOME}/build-tools/24.0.2/zipalign -v 4 app-release-unsigned.apk app-release.apk" 
 
 # 部署
 deploy:
