@@ -31,7 +31,9 @@ script:
   # 生成 APK
   - ./gradlew assembleDebug testRelease assembleRelease
 
-# before_deploy:
+before_deploy:
+  - export RELEASE_PKG_FILE=$(ls *.apk)
+  - echo "deploying $RELEASE_PKG_FILE to GitHub releases"
 # - cp $TRAVIS_BUILD_DIR/.keystore $HOME
 # # 记住这里已经将当前工作目录切换到 apk 下
 # - cd app/build/outputs/apk/
@@ -51,12 +53,13 @@ deploy:
   # Github oauth token
   api_key: "$GIT_TOKEN"
   # 部署文件路径；对于Android就部署生成的 apk 文件
-  file:*.apk
+  file:
     #- app/build/outputs/apk/release/app-release.apk
     #- app/build/outputs/apk/debug/app-debug.apk
     #- *.apk
     #- app/build/outputs/apk/*/*.apk
     #- *.apk
+    - "${RELEASE_PKG_FILE}"
   file_glob: true
   # 避免 Travis CI在部署之前清空生成的APK文件
   skip_cleanup: true
