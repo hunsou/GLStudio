@@ -11,7 +11,7 @@ def keystoreProperties = new Properties()
 
 // Load your keystore.properties file into the keystoreProperties object.
 
-def keyStoreFile = '../my.keystore'
+def keyStoreFile = file("../my.keystore")
 
 if (keystorePropertiesFile.exists()){
 	keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
