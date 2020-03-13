@@ -1,0 +1,63 @@
+# .travis.yml 文件
+
+# 声明构建语言环境
+language: android
+
+before_cache:
+ - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
+ - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+
+cache:
+ directories:
+ - $HOME/.gradle/caches/
+ - $HOME/.gradle/wrapper/
+
+android:        # 配置信息
+  components:
+    # 你可能需要修改下面两项的版本
+    - build-tools-28.0.3
+    - android-28
+    # Android Support Repository
+    - extra-android-m2repository
+    # Support Library
+    - extra-android-support
+
+before_install:
+    - chmod 755 gradlew
+  # - openssl aes-256-cbc -K $encrypted_f6c9a5f058a8_key -iv $encrypted_f6c6a5f053a8_iv -in my.keystore.enc -out my.keystore -d
+  # - openssl aes-256-cbc -K $encrypted_ad23ea9b533c_key -iv $encrypted_ad23ca6e583c_iv -in keystore.properties.enc -out keystore.properties -d
+    
+script:
+  # 生成 APK
+  - ./gradlew assembleDebug testRelease assembleRelease
+
+# before_deploy:
+# - cp $TRAVIS_BUILD_DIR/.keystore $HOME
+# # 记住这里已经将当前工作目录切换到 apk 下
+# - cd app/build/outputs/apk/
+# # Signing 签名
+# - jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/my.keystore -storepass $KEYSTORE_PWD -keypass $KEY_PWD app/build/outputs/apk/app-release-unsigned.apk $KEY_ALIAS
+
+# # Verification 验证您的 APK 是否已签署
+# - jarsigner -verify app-release-unsigned.apk
+# - "${ANDROID_HOME}/build-tools/24.0.2/zipalign -v 4 app-release-unsigned.apk app-release.apk" 
+
+# 部署
+deploy:
+  # 部署到GitHub Release。
+  # 除此之外，Travis CI还支持发布到fir.im、AWS、Google App Engine等
+  provider: nightly
+  #provider: debug
+  # Github oauth token
+  api_key: "$GIT_TOKEN"
+  # 部署文件路径；对于Android就部署生成的 apk 文件
+  file:
+    - app/build/outputs/apk/release/app-release.apk
+    - app/build/outputs/apk/debug/app-debug.apk
+  # 避免 Travis CI在部署之前清空生成的APK文件
+  skip_cleanup: true
+  # 发布时机
+  on:
+    # tags设置为true表示只有在有tag的情况下才部署
+    tags: true
+    all_branches: true
