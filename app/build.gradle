@@ -11,16 +11,18 @@ def keystoreProperties = new Properties()
 
 // Load your keystore.properties file into the keystoreProperties object.
 
+def keyStoreFile = '../my.keystore'
+
 if (keystorePropertiesFile.exists()){
 	keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+	def keyStoreFile = file(keystoreProperties['storeFileLocal'])
+	// 判断是位于本地还是CI服务器
+	if (!keyStoreFile.exists()){
+		keyStoreFile = file(keystoreProperties['storeFileCI'])
+	}
 }
 
-def keyStoreFile = file(keystoreProperties['storeFileLocal'])
 
-// 判断是位于本地还是CI服务器
-if (!keyStoreFile.exists()){
-    keyStoreFile = file(keystoreProperties['storeFileCI'])
-}
 
 android {
     compileSdkVersion 28
