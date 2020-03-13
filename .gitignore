@@ -10,5 +10,4 @@
 .externalNativeBuild
 .idea
 *.jks
-gradle.properties
 keystore.properties

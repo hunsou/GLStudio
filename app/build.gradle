@@ -4,13 +4,13 @@ apply plugin: 'kotlin-android-extensions'
 
 // Create a variable called keystorePropertiesFile, and initialize it to your
 // keystore.properties file, in the rootProject folder.
-//def keystorePropertiesFile = rootProject.file("keystore.properties")
+def keystorePropertiesFile = rootProject.file("keystore.properties")
 
 // Initialize a new Properties() object called keystoreProperties.
-//def keystoreProperties = new Properties()
+def keystoreProperties = new Properties()
 
 // Load your keystore.properties file into the keystoreProperties object.
-//keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 
 //def keyStoreFile = file(keystoreProperties['storeFileLocal'])
 
@@ -36,7 +36,7 @@ android {
 		release {
 			//storeFile //file("./GLStudio.jks")
 			//storePassword 'xxxxxx'
-			//keyAlias 'key0'
+			//keyAlias 'xxxx'
 			//keyPassword 'xxxxxx'
 			//v2SigningEnabled false
 			//keyAlias keystoreProperties['keyAlias']
@@ -47,9 +47,9 @@ android {
             //storePassword project.hasProperty("KEYSTORE_PASS") ? KEYSTORE_PASS : System.getenv("KEYSTORE_PASS")
             //keyAlias project.hasProperty("ALIAS_NAME") ? ALIAS_NAME : System.getenv("ALIAS_NAME")
             //keyPassword project.hasProperty("ALIAS_PASS") ? ALIAS_PASS : System.getenv("ALIAS_PASS")
-			storePassword project.hasProperty("KEYSTORE_PASS") ? KEYSTORE_PASS : System.getenv("KEYSTORE_PASS")
-            keyAlias project.hasProperty("ALIAS_NAME") ? ALIAS_NAME : System.getenv("ALIAS_NAME")
-            keyPassword project.hasProperty("ALIAS_PASS") ? ALIAS_PASS : System.getenv("ALIAS_PASS")
+			storePassword keystorePropertiesFile.exists() ? keystoreProperties['KEYSTORE_PASS'] : System.getenv("KEYSTORE_PASS")
+            keyAlias keystorePropertiesFile.exists() ? keystoreProperties['ALIAS_NAME'] : System.getenv("ALIAS_NAME")
+            keyPassword keystorePropertiesFile.exists() ? keystoreProperties['ALIAS_PASS'] : System.getenv("ALIAS_PASS")
 		}
 	}
 	
