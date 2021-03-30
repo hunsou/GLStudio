@@ -24,7 +24,7 @@
             <android.opengl.GLSurfaceView
                 android:id="@+id/activity_video_surfaceView"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent" />
         </com.benhero.glstudio.video.AspectFrameLayout>
     </FrameLayout>
 
@@ -42,7 +42,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="00:00"/>
+        tools:text="00:00" />
 
     <SeekBar
         android:id="@+id/activity_video_seekbar"
@@ -54,7 +54,7 @@
         app:layout_constraintEnd_toStartOf="@+id/activity_video_text_duration"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/activity_video_text_progress"
-        app:layout_constraintTop_toTopOf="@+id/activity_video_text_progress"/>
+        app:layout_constraintTop_toTopOf="@+id/activity_video_text_progress" />
 
     <TextView
         android:id="@+id/activity_video_text_duration"
@@ -68,5 +68,5 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/activity_video_seekbar"
         app:layout_constraintTop_toTopOf="@+id/activity_video_seekbar"
-        tools:text="10:00"/>
+        tools:text="10:00" />
 </android.support.constraint.ConstraintLayout>

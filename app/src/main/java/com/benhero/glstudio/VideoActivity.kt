@@ -84,8 +84,9 @@ class VideoActivity : Activity(), View.OnClickListener, VideoPlayer.PlayerListen
     }
 
     private fun pickVideo() {
-        if (false) {
-            onVideoPicked("/storage/emulated/0/DCIM/Camera/VID_20181016_145713.mp4")
+        if (!false) {
+            //onVideoPicked("/storage/emulated/0/DCIM/Camera/VID_20181016_145713.mp4")
+            onVideoPicked("/storage/emulated/0/download/0.mp4")
         } else {
             val intent = Intent(Intent.ACTION_PICK)
             intent.type = "video/*"
